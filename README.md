@@ -91,3 +91,9 @@ This is the place for you to write reflections:
 2. Rust tidak mengizinkan variabel statis untuk dimutasi secara langsung. Melalui hal tersebut, fitur lazy_static variabel diinisialisasi HANYA satu kali dan akan memiliki sifat imutable. Melalui hal tersebut, thread akan lebih diamankan saat adanya proses multi-threading
 
 #### Reflection Subscriber-2
+
+1. Saya sempat melakukan explore sedikit diluar perkuliahan dan mencakup lib.rs. Melalui pemahaman saya, lib.rs merupakan akar dari sebuah program rust.
+
+2. Observer pattern mempermudah penambahan pelanggan secara terpisah (tidak terikat dan tanpa mengubah kelas subjek). Jika menambahkan lebih dari satu instance, sepertinya masih memungkinkan terjadi jika penerapan code sudah terhandle dengan baik walaupun mungkin tetap diperlukan adanya peningkatan sistem
+
+3. Menurut saya, penggunaan postman sangat bermanfaat untuk pengujian program yang telah dibuat sebelumnya. Melalui postman, saya dapat menjamin bahwa program yang saya buat sebelumnya sudah akurat dan sesuai.
